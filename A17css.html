@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Images</title>
+  <style>
+    /* Common image styles */
+    .styled-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+      filter: grayscale(20%); /* Grayscale filter */
+      transition: all 0.3s ease;
+    }
+
+    /* Hover effect */
+    .styled-image:hover {
+      transform: scale(1.05); /* Scale effect on hover */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+      filter: grayscale(0%); /* Remove grayscale filter on hover */
+    }
+  </style>
+</head>
+<body>
+    <h1><center>Image Styling</h1></center>
+<center><img class="styled-image" src="https://tse3.mm.bing.net/th?id=OIP.S1dPiODc5rCcWObk4DThygHaEo&pid=Api&P=0&h=180" alt="Example Image" height="200"width="600">
+</center>  
+</body>
+</html>
