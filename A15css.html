@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Remove default list styles */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    /* Custom bullet styles */
+    .custom-bullets {
+      padding-left: 20px;
+    }
+    .custom-bullets li {
+      position: relative;
+      padding-left: 30px; /* Adjust as needed */
+      margin-bottom: 8px; /* Adjust as needed */
+    }
+    .custom-bullets li:before {
+      content: "\2022"; /* Bullet character */
+      position: absolute;
+      left: 0;
+      color: #007bff; /* Bullet color */
+    }
+  </style>
+</head>
+<body>
+    <h2>Custom Bullet List</h2>
+  <ul class="custom-bullets">
+    <li>Fried Rice</li>
+    <li>Dal Makhani</li>
+    <li>Biryani</li>
+  </ul>
+  <h2>Default Bullets</h2>
+  <ul>
+    <li>Pasta</li>
+    <li>Noodles</li>
+    <li>Gobi</li>
+  </ul>
+</body>
+</html>
